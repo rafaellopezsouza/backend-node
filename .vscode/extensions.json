@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "naumovs.color-highlight",
+        "clinyong.vscode-css-modules",
+        "dracula-theme.theme-dracula",
+        "ritwickdey.liveserver",
+        "pkief.material-icon-theme",
+        "syler.sass-indented",
+        "k--kato.intellij-idea-keybindings",
+        "esbenp.prettier-vscode",
+        "prisma.prisma",
+        "Prisma.prisma-insider"
+    ]
+}

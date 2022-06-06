@@ -1,0 +1,31 @@
+{
+  "name": "primeiro-software",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "types": "./dist/__types__",
+  "engines": {
+    "node": ">=12.10.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "migration": "prisma migrate dev"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "prisma": "^3.14.0"
+  }
+}
